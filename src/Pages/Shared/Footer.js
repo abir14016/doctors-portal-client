@@ -6,7 +6,8 @@ const Footer = () => {
         <footer style={{
             background: `url(${footerImage})`,
             backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
         }} className="footer footer-center p-10 rounded">
             <div className="grid grid-flow-col gap-4">
                 <a className="link link-hover">About us</a>
